@@ -6,7 +6,7 @@ Projeto final desenvolvido em Node.js e PostgreSQL, composto por uma API REST e 
 
 ##  Tecnologias Utilizadas
 
-## 🚀 Tecnologias e Deploy
+##  Tecnologias e Deploy
 
 - **Backend:** Node.js, Express, PostgreSQL (Neon) publicado no [Render](https://lista-de-jogos-backend.onrender.com)
 - **Frontend:** HTML/CSS/JS publicado na [Vercel](https://lista-de-jogos-fullstack.vercel.app)
@@ -49,7 +49,7 @@ cd lista-de-jogos-fullstack
 ### 2. Configurar e Executar o Backend
 cd backend
 npm install
-# Crie um arquivo .env baseado no .env.example (DATABASE_URL, JWT_SECRET, PORT)
+Crie um arquivo .env baseado no .env.example (DATABASE_URL, JWT_SECRET, PORT)
 npm start
 
 ### 3. Executar o Frontend
