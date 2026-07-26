@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({ origin: '*' }));
 app.use(express.json());
 
-app.use('/api/auth', authRoutes);
+app.use('/auth', authRoutes);
 app.use('/api/games', gameRoutes);
 
 const PORT = process.env.PORT || 3000;

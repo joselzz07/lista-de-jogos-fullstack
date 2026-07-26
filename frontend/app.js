@@ -1,4 +1,4 @@
-const API_URL = 'https://lista-de-jogos-backend.onrender.com';
+const API_URL = 'https://lista-de-jogos-backend.onrender.com/api';
 let modoCadastro = false;
 
 function alternarModoAuth(e) {
