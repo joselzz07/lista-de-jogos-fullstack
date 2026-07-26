@@ -60,7 +60,3 @@ cd ../frontend
 # Abra o arquivo index.html no navegador ou utilize a extensão Live Server
 
 ---
-
-##  Autor
-
-Desenvolvido por **José Luiz Jacinto dos Santos** ([@joselzz07](https://github.com/joselzz07)).
