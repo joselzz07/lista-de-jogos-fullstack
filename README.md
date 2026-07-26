@@ -6,10 +6,10 @@ Projeto final desenvolvido em Node.js e PostgreSQL, composto por uma API REST e 
 
 ##  Tecnologias Utilizadas
 
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Backend:** Node.js, Express, JWT (JSON Web Token)
-- **Banco de Dados:** PostgreSQL (duas tabelas relacionadas via Foreign Key)
-- **Deploy:** Render (Backend) / Vercel (Frontend)
+## 🚀 Tecnologias e Deploy
+
+- **Backend:** Node.js, Express, PostgreSQL (Neon) publicado no [Render](https://lista-de-jogos-backend.onrender.com)
+- **Frontend:** HTML/CSS/JS publicado na [Vercel](https://lista-de-jogos-fullstack.vercel.app)
 
 ---
 
