@@ -1,8 +1,8 @@
-# 🎮 Lista de Jogos Full-Stack
+#  Lista de Jogos Full-Stack
 
 Projeto desenvolvido como trabalho final, consistindo em uma aplicação web full-stack para gerenciamento e visualização de uma lista de jogos.
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 ### Frontend
 - HTML5 / CSS3
@@ -14,7 +14,7 @@ Projeto desenvolvido como trabalho final, consistindo em uma aplicação web ful
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 lista-de-jogos-fullstack/
 ├── backend/    # Servidor Node.js, regras de negócio e rotas de API
@@ -22,7 +22,7 @@ lista-de-jogos-fullstack/
 
 ---
 
-## ⚙️ Como Executar o Projeto
+##  Como Executar o Projeto
 
 ### Pré-requisitos
 Antes de começar, você precisará ter instalado em sua máquina:
@@ -44,6 +44,6 @@ cd ../frontend
 
 ---
 
-## ✒️ Autor
+##  Autor
 
 Desenvolvido por **José Luiz Jacinto dos Santos** ([@joselzz07](https://github.com/joselzz07)).
