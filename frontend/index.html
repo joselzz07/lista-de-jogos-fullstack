@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Jogos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+
+  <div class="container py-5">
+    <div id="auth-section" class="row justify-content-center">
+      <div class="col-md-5">
+        <div class="card bg-secondary text-light shadow">
+          <div class="card-body">
+            <h3 class="card-title text-center mb-4" id="form-titulo">Login</h3>
+            
+            <form id="form-auth" onsubmit="tratarAutenticacao(event)">
+              <div class="mb-3" id="campo-nome" style="display: none;">
+                <label class="form-label">Nome</label>
+                <input type="text" id="auth-nome" class="form-control">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">E-mail</label>
+                <input type="email" id="auth-email" class="form-control" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Senha</label>
+                <input type="password" id="auth-senha" class="form-control" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100" id="btn-auth">Entrar</button>
+            </form>
+
+            <div class="text-center mt-3">
+              <a href="#" onclick="alternarModoAuth(event)" id="link-alternar" class="text-info">Não tem conta? Cadastre-se</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="app-section" style="display: none;">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>🎮 Minha Lista de Jogos</h2>
+        <button onclick="logout()" class="btn btn-outline-danger">Sair</button>
+      </div>
+
+      <div class="card bg-secondary text-light mb-4 shadow">
+        <div class="card-body">
+          <h5 class="card-title">Adicionar Novo Jogo</h5>
+          <form id="form-jogo" onsubmit="adicionarJogo(event)" class="row g-3">
+            <div class="col-md-5">
+              <input type="text" id="nome-jogo" class="form-control" placeholder="Nome do Jogo" required>
+            </div>
+            <div class="col-md-4">
+              <input type="text" id="plataforma-jogo" class="form-control" placeholder="Plataforma (ex: PC, PS5)" required>
+            </div>
+            <div class="col-md-3">
+              <button type="submit" class="btn btn-success w-100">Cadastrar Jogo</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div id="jogos-container" class="row g-3"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
