@@ -57,6 +57,6 @@ npm start
 
 ### 3. Executar o Frontend
 cd ../frontend
-# Abra o arquivo index.html no navegador ou utilize a extensão Live Server
+Abra o arquivo index.html no navegador ou utilize a extensão Live Server
 
 ---
