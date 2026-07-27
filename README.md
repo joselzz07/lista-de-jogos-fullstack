@@ -44,6 +44,7 @@ lista-de-jogos-fullstack/
 
 ### 1. Clonar o Repositório
 git clone https://github.com/joselzz07/lista-de-jogos-fullstack.git
+
 cd lista-de-jogos-fullstack
 
 ### 2. Configurar e Executar o Backend
